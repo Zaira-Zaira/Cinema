@@ -1,0 +1,95 @@
+ /*reset css*/
+html{
+   font-size: 62.5%;
+}
+ body{
+   font:1.6rem sans-serif;
+   margin:0;
+   padding:0;
+   font-family: 'Open Sans', sans-serif;
+}
+*{
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+}
+h1,ul,li{
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+ a{
+    text-decoration: none;
+    color:#222;
+    outline: none;
+}
+
+
+ /*le theme */
+header h1{
+    text-align: center;
+    font-size: 2.0rem;
+    text-transform: uppercase;
+    margin: 2.0rem;
+    letter-spacing: 0.2rem;
+}
+main section{
+    display: flex;
+    box-shadow: 0 0 1.0rem #333;
+    max-width: 80.0rem;
+    border: 0.1rem solid transparent;
+    margin: 0 auto;
+    border-radius: 0.1rem;
+}
+section figure{
+    margin: 1rem 0 1rem 1rem;
+    background-color: #fafafafa;
+    width: calc(100% / 3);
+}
+section figure img{
+    margin-bottom: -0.4rem;
+    width: 100%;
+}
+
+figure figcaption h2{
+    text-align: center;
+    padding: 0.3rem;
+    margin-bottom: 0.5rem;
+    background-color: blue;
+    color: #ffff;
+    margin-top: -0.8rem;
+}
+figure figcaption h2:last-child{
+    margin-bottom: 0.5rem;
+}
+
+figure figcaption dl {
+    line-height: 1.5rem;
+    /* padding: 1.0rem; */
+}
+figure figcaption dl dd {
+    color: #222;
+    display: inline;
+}
+figure figcaption dl {
+    line-height: 1.4rem;
+    padding: 0.4rem;
+}
+figure figcaption dl dt{
+    display: inline;
+    color: #222;
+}
+ section figure:last-child {
+    margin-right: 1.0rem;
+}
+
+
+
+
+
+ 
+
+
+
+
+
